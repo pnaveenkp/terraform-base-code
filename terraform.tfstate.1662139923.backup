@@ -1,0 +1,103 @@
+{
+  "version": 4,
+  "terraform_version": "1.2.8",
+  "serial": 6,
+  "lineage": "d531644c-be25-507a-0158-f01b80b2e102",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_vpc",
+      "name": "default1",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:us-east-2:167489039486:vpc/vpc-0b674354256c0e97d",
+            "assign_generated_ipv6_cidr_block": false,
+            "cidr_block": "10.1.0.0/16",
+            "default_network_acl_id": "acl-037084cc921e73b1c",
+            "default_route_table_id": "rtb-0bf81c7036e5fec6f",
+            "default_security_group_id": "sg-0fb3b3c801d7521b7",
+            "dhcp_options_id": "dopt-027f9b5fadb68fa5b",
+            "enable_classiclink": false,
+            "enable_classiclink_dns_support": false,
+            "enable_dns_hostnames": true,
+            "enable_dns_support": true,
+            "id": "vpc-0b674354256c0e97d",
+            "instance_tenancy": "default",
+            "ipv4_ipam_pool_id": null,
+            "ipv4_netmask_length": null,
+            "ipv6_association_id": "",
+            "ipv6_cidr_block": "",
+            "ipv6_cidr_block_network_border_group": "",
+            "ipv6_ipam_pool_id": "",
+            "ipv6_netmask_length": 0,
+            "main_route_table_id": "rtb-0bf81c7036e5fec6f",
+            "owner_id": "167489039486",
+            "tags": {
+              "Name": "terraform_testvpc_1",
+              "Owner": "Naveen",
+              "environment": "dev"
+            },
+            "tags_all": {
+              "Name": "terraform_testvpc_1",
+              "Owner": "Naveen",
+              "environment": "dev"
+            }
+          },
+          "sensitive_attributes": [],
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_vpc",
+      "name": "default2",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:us-east-2:167489039486:vpc/vpc-00caff13a22d02ee7",
+            "assign_generated_ipv6_cidr_block": false,
+            "cidr_block": "10.2.0.0/16",
+            "default_network_acl_id": "acl-0d0450f8bf2857b1c",
+            "default_route_table_id": "rtb-0ff35957a98a97028",
+            "default_security_group_id": "sg-0acaa15b79db4ef9b",
+            "dhcp_options_id": "dopt-027f9b5fadb68fa5b",
+            "enable_classiclink": false,
+            "enable_classiclink_dns_support": false,
+            "enable_dns_hostnames": true,
+            "enable_dns_support": true,
+            "id": "vpc-00caff13a22d02ee7",
+            "instance_tenancy": "default",
+            "ipv4_ipam_pool_id": null,
+            "ipv4_netmask_length": null,
+            "ipv6_association_id": "",
+            "ipv6_cidr_block": "",
+            "ipv6_cidr_block_network_border_group": "",
+            "ipv6_ipam_pool_id": "",
+            "ipv6_netmask_length": 0,
+            "main_route_table_id": "rtb-0ff35957a98a97028",
+            "owner_id": "167489039486",
+            "tags": {
+              "Name": "terraform_testvpc_2",
+              "Owner": "Rajasekhar",
+              "environment": "dev"
+            },
+            "tags_all": {
+              "Name": "terraform_testvpc_2",
+              "Owner": "Rajasekhar",
+              "environment": "dev"
+            }
+          },
+          "sensitive_attributes": [],
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        }
+      ]
+    }
+  ]
+}
