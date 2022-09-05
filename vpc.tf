@@ -8,7 +8,7 @@ resource "aws_vpc" "default1" {
   }
 }
 
-resource "aws_internet_gateway" "default" {
+resource "aws_internet_gateway" "default1" {
   vpc_id = aws_vpc.default1.id
   tags = {
     Name = "${var.vpc_name}-IGW"
